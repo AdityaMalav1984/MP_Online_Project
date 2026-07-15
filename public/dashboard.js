@@ -1,4 +1,4 @@
-const api = "http://localhost:3000/tasks";
+const api = "/tasks";
 
 // Optional: check if user should be here (simple check)
 // In a real app this would use tokens

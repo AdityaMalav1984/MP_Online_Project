@@ -12,6 +12,11 @@
   ],
   "routes": [
     {
+      "src": "/",
+      "headers": { "Location": "/login.html" },
+      "status": 302
+    },
+    {
       "src": "/tasks(.*)",
       "dest": "/server.js"
     },
